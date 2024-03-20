@@ -1,0 +1,41 @@
+html{
+    font-size: 24px; /*Establece el tamaño de html a 24 píxeles.*/
+}
+
+h1{
+    font-size: 16px; /*Establece el tamaño de h1 a 16 píxeles.*/
+}
+
+h2{
+    font-size: 1rem; /*Establece el tamaño de h2 igual a 1rem = 24 píxeles.*/
+}
+
+h3{
+    font-size: 1.75rem; /*Establece el tamaño de h3 igual a 1.75rem = 42 píxeles.*/
+}
+
+h4{
+    font-size: 1.5rem; /*Establece el tamaño de h4 igual a 1.5rem = 36 píxeles.*/
+}
+
+h5{
+    font-size: 1.25rem; /*Establece el tamaño de h5 igual a 1.25rem = 30 píxeles.*/
+}
+
+h6{
+    font-size: 1.05rem; /*Establece el tamaño de h3 igual a 1.05rem = 25.2 píxeles.*/
+}
+
+.contenedor{
+    width: 70%; /*Establece la anchura de la clase contenedor igual al 70%.*/
+    height: 400px; /*Establece la altura de la clase contenedor igual a 400 píxeles.*/
+    background-color: aqua; /*Establece el color de fondo de la clase contenedor como aqua.*/
+    margin: 30px auto; /*Establece el margen de la clase contenedor igual al 30 píxeles (en lado superior e inferior)
+                        y automático a los costados .*/
+}
+
+.hijo{
+    width: 70vw; /*Establece la anchura de la clase hijo igual al 70vw (ancho del dispositivo).*/
+    height: 50vh; /*Establece la altura de la clase hijo igual al 50vh (altura del dispositivo).*/
+    background-color: blueviolet; /*Establece el color de fondo de la clase hijo como azul-violeta.*/
+}
